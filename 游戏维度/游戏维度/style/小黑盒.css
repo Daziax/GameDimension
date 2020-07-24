@@ -1,0 +1,127 @@
+﻿/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    outline: none;
+}
+
+/* *{
+	scrollbar-arrow-color: rgba(0,0,0,0);
+		scrollbar-face-color: #333; 
+		scrollbar-3dlight-color: #666; 
+		scrollbar-highlight-color: #666;
+		scrollbar-shadow-color: #999; 
+		scrollbar-darkshadow-color: #666; 
+		scrollbar-track-color: #666;
+		scrollbar-base-color:#f8f8f8;
+} */
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.5;
+    /* font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, helvetica, sans-serif; */
+    font-family: -apple-system, "PingFang SC", Hiragino Sans GB, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.number-font-family {
+    font-family: "Helvetica Neue", -apple-system, "PingFang SC", "Microsoft YaHei", Arial, helvetica, sans-serif;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom */
+
+a {
+    color: #008ee8;
+    -webkit-backface-visibility: hidden;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.preventScroll {
+    position: fixed;
+    width: 100%;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #c8cdd2;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #c8cdd2;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #c8cdd2;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #c8cdd2;
+}
+
+
+/* æ»šåŠ¨æ¡ */
+::-webkit-scrollbar {
+    width: 6px;
+}
+/* æ»šåŠ¨æ¡ä¸¤ç«¯æŒ‰é’® */
+::-webkit-scrollbar-button {
+    display: none;
+}
+/* æ»šåŠ¨æ¡å¤–å±‚è½¨é“ */
+::-webkit-scrollbar-track {
+    display: none;
+}
+/* å†…å±‚è½¨é“ */
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(255,255,255,0);
+}
+/* å¯æ‹–åŠ¨çš„éƒ¨åˆ† */
+::-webkit-scrollbar-thumb {
+    background-color: #aaaaaa;
+    border-radius: 7px;
+    width: 7px;
+}

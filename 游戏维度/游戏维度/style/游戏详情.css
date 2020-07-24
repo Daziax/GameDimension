@@ -1,0 +1,463 @@
+﻿* {
+    font-size: 28px;
+    text-align: left;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.ImgBackground {
+    /*background-image: url(/../Resources/Image/塞尔达传说.jpg);*/
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+        cursor: pointer;
+    }
+
+.TopBar {
+    position: relative;
+    text-align: right;
+    background-color: #5B5B5B;
+    color: #ADADAD;
+    opacity: 0.8;
+    width: 100%;
+    height: 45px;
+    box-shadow: inset 0 0 10px #777777;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+    .TopBar a {
+        text-decoration: none;
+        color: #ADADAD;
+        margin: 0px,20px,0px,20px;
+        line-height: 35px;
+    }
+
+        .TopBar a:hover {
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+.BtnTopBar {
+    border: none;
+    background-color: #5B5B5B;
+    color: #ADADAD;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+    .BtnTopBar:hover {
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+.TopBarVA1 {
+    display: inline;
+}
+
+.TopBarVA2 {
+    display: none;
+}
+
+.ImgBar {
+    width: 25px;
+    height: 25px;
+    margin: 3px,20px,3px,20px;
+    position: relative;
+    Top: 3.5px;
+}
+
+.LoginBox {
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+    z-index: 999999;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 1100px; /*500px;*/
+    height: 640px; /*320px*/
+    margin: auto;
+    position: fixed;
+    Top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 3px 3px 50px 50px #696969;
+    background: url('../Resources/Image/太空登录.png') no-repeat;
+    background-size: 820px;
+    background-position-x: right;
+    background-color: white;
+}
+
+    .LoginBox > div {
+        text-align: left;
+        margin: 30px;
+    }
+
+    .LoginBox :nth-child(7) {
+        position: relative;
+        top: -430px;
+        left: 450px;
+        background-color: transparent;
+        font-weight: 700;
+        color: wheat;
+        border: none;
+    }
+
+        .LoginBox :nth-child(7):hover {
+            cursor: pointer;
+        }
+
+.TbLoginBox {
+    width: 400px;
+    height: 70px;
+}
+
+.content {
+    margin-Top: 20px;
+}
+
+.Top {
+    width: 1620px;
+    height: 400px;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 0px 0px 30px #87CEFF;
+    z-index: 1000;
+    position: relative;
+    margin: auto;
+    margin-Top: 100px;
+}
+
+.TopLeft {
+    width: 291px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+#img1 {
+    left: 50px;
+    Top: -57px;
+    position: relative;
+    width: 191px;
+    height: 314px;
+}
+
+.TopMid {
+    width: 1000px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.logo {
+    margin: 10px;
+    margin-Top: 0;
+}
+
+.TopTitle {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.Information {
+    letter-spacing: 2px;
+    line-height: 42px;
+    overflow: scroll;
+    height: 240px;
+    text-indent: 40px;
+}
+
+.TopRight {
+    width: 291px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 40px;
+    width: 291px;
+    height: 42px;
+    position: absolute;
+    Top: 10px;
+}
+
+.buy {
+    margin: auto;
+    width: 277px;
+    position: absolute;
+    Top: 90px;
+}
+
+    .buy:hover {
+        box-shadow: 0px 0px 25px #404040;
+    }
+
+.TopRightBtn {
+    width: 291px;
+    margin: auto;
+    position: absolute;
+    Top: 200px;
+}
+
+.TopRightBtnItem {
+    border: 2px;
+    font-size: 30px;
+    color: aliceblue;
+    margin: 25px;
+    background-color: #00868B;
+    border-radius: 10px 10px;
+}
+
+    .TopRightBtnItem:hover {
+        background-color: transparent;
+        color: aquamarine;
+        border: 4px dotted aquamarine;
+    }
+
+.cover {
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    margin-Top: -300px;
+    /*background-color: #BEBEBE;*/ /*#3D3D3D*/
+    /*opacity: 0.8;*/
+    background-color: rgba(248, 248, 255, 0.85);
+    color: black;
+    border-radius: 100px 100px 5px 5px;
+}
+
+.layer {
+    width: 85%;
+    height: 900px;
+    background-color: rgba(248, 248, 255, 0.85);
+    /*background-color: white; #3D3D3D
+    opacity: 0.85;*/
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+    padding: 80px;
+    border-radius: 100px 100px 10px 10px;
+    /*margin-top:-40px;*/
+}
+
+.OnLayer p {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.MediaComment {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.media > div:nth-child(1) {
+    margin-bottom: 50px;
+}
+
+    .media > div:nth-child(1) > img {
+        width: 40px;
+        vertical-align: bottom;
+    }
+
+    .media > div:nth-child(1) > label {
+        text-align: left;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 20px;
+    }
+
+.media > div:nth-child(2) {
+    width: 1000px;
+    height: 240px;
+    border: 2px solid black;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    background-color: rgba(245,245,245,0.8);
+    border-radius: 25px 25px;
+}
+
+    .media > div:nth-child(2) > div {
+        font-size: 18px;
+        text-indent: 36px;
+        line-height: 20px;
+        letter-spacing: 10px;
+        text-align: left;
+    }
+
+    .media > div:nth-child(2) > ul {
+        white-space: nowrap;
+        position: relative;
+        height: 60px;
+    }
+
+.media > input {
+    border: none;
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+    vertical-align: top;
+    margin-top: 70px;
+}
+
+li[class="MediaCommentItem"] {
+    display: inline-block;
+    list-style: none;
+    margin: 11px;
+    margin-right: 50px;
+}
+
+    li[class="MediaCommentItem"] > label {
+        font-size: 36px;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+.MidLine {
+    border: 4px solid #696969;
+    width: 2000px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.ThePlayer {
+    /*border: 4px dotted black;*/
+    height: 270px;
+    width: 1000px;
+    margin-top: 40px;
+    background-color: #F8F8FF;
+    overflow: hidden;
+}
+
+    .ThePlayer > textarea {
+        background-color: #F8F8FF;
+        height: 250px;
+        width: 830px;
+        font-size: 30px;
+        word-wrap: break-word;
+    }
+
+    .ThePlayer > input[type="button"] {
+        border: none;
+        opacity: 0.8;
+        color: black;
+    }
+
+.PlayerComment {
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+    width: 1400px;
+    text-align: left;
+}
+
+.AllPlayer {
+    margin: auto;
+    margin-top: 30px;
+    width: 1400px;
+    /*border: 4px dotted red;*/
+}
+
+    .AllPlayer li {
+        margin: 40px;
+        text-align: left;
+    }
+
+        .AllPlayer li:nth-child(1) {
+            display: none;
+        }
+
+    .AllPlayer > div:nth-child(1) > img {
+        width: 40px;
+        vertical-align: bottom;
+    }
+
+    .AllPlayer > div:nth-child(1) > label {
+        text-align: left;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 20px;
+    }
+
+.EachAllPlayer > div:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: top;
+    box-shadow: 0px 0px 0px 2px #696969;
+}
+
+.EachAllPlayer > div:nth-child(2) {
+    display: inline-block;
+    width: 800px;
+    height: 300px;
+    text-align: left;
+    overflow: hidden;
+    font-size: 30px;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+    .EachAllPlayer > div:nth-child(2) > label {
+        font-size: 20px;
+        font-weight: 400;
+        color: teal;
+    }
+
+    .EachAllPlayer > div:nth-child(2) > div {
+        margin-top: 40px;
+        text-indent: 30px;
+    }
+/*.EachAllPlayer {
+    border: #96CDCD solid 2px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 750px;
+}
+
+.EachAllPlayer > div {
+        background: white center;
+        width: 500px;
+        height: 150px;
+        border: black solid 2px;
+        display: inline-block;
+        color: black;
+    }*/
+
+
+.AllPrice {
+    margin: auto;
+    width: 1500px;
+    height: 1400px;
+}
+
+iframe {
+    width: 1500px;
+    height: 1400px;
+}

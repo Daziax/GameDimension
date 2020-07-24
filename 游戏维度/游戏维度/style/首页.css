@@ -1,0 +1,394 @@
+﻿body {
+    background-color: black;
+}
+* {
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+a {
+    text-decoration: none;
+}
+/*.Topbar {
+    position: relative;
+    text-align: right;
+    background-color: #5B5B5B;
+    color: #ADADAD;
+    width: 100%;
+    box-shadow: inset 0 0 10px #777777;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Topbar a {
+    text-decoration: none;
+    color: #ADADAD;
+    margin: 0px,20px,0px,20px;
+    line-height:35px;
+}
+.Topbar a:hover{
+    color: aliceblue;
+    cursor:pointer;
+}
+#BtnTopBar {
+    border: none;
+    background-color: #5B5B5B;
+    color: #ADADAD;
+    font-size: 24px;
+    position:relative;
+    margin-bottom:0px;
+}
+#BtnTopBar:hover {
+    color: aliceblue;
+    cursor:pointer;
+}
+
+.ImgBar {
+    width: 25px;
+    height: 25px;
+    margin: 3px,20px,3px,20px;
+    position:relative;
+    Top:3.5px;
+}*/
+.TopBar {
+    position: relative;
+    text-align: right;
+    background-color: #5B5B5B;
+    color: #ADADAD;
+    opacity: 0.8;
+    width: 100%;
+    height: 45px;
+    box-shadow: inset 0 0 10px #777777;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+    .TopBar a {
+        text-decoration: none;
+        color: #ADADAD;
+        margin: 0px,20px,0px,20px;
+        line-height: 35px;
+    }
+
+        .TopBar a:hover {
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+
+.BtnTopBar {
+    border: none;
+    background-color: #5B5B5B;
+    color: #ADADAD;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+    .BtnTopBar:hover {
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+.TopBarVA1 {
+    display: inline;
+}
+
+.TopBarVA2 {
+    display: none;
+}
+
+.ImgBar {
+    width: 25px;
+    height: 25px;
+    margin: 3px,20px,3px,20px;
+    position: relative;
+    Top: 3.5px;
+}
+
+
+.nav {
+    text-align: left;
+    background-color: #5B5B5B;
+    color: #ADADAD;
+    width: 100%;
+    height: 50px;
+    font-size: 27px;
+    line-height: 50px;
+    -moz-box-shadow: inset 0 0 10px #777777;
+    -webkit-box-shadow: inset 0 0 10px #777777;
+    box-shadow: inset 0 0 10px #777777;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+    .nav a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+#Login {
+    /*display:none;*/
+    width: 800px;
+    height: 450px;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+    #Login > div {
+        margin: auto;
+        margin-Top: 30px;
+        width: 250px;
+    }
+
+.btnLogin {
+    margin-left: 100px;
+}
+
+    .btnLogin:hover {
+        background-image: url(../Resources/Image/Login2.JPG);
+    }
+
+.content {
+    width: 1690px;
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.clsnav {
+    background-color: #474747;
+    padding: 10px;
+    height: 35px;
+}
+
+    .clsnav a {
+        text-decoration: none;
+        color: #E8E8E8;
+    }
+
+.ClsNavBlc {
+    background-color: #474747;
+    float: left;
+    width: 12.5%;
+    height: 35px;
+    text-align: center;
+}
+
+    .ClsNavBlc:hover {
+        background-color: #A1A1A1;
+        color: aliceblue;
+    }
+
+.clscont {
+    background-color: #474747;
+}
+
+.ClsContItemPic {
+    position: relative;
+    width: 100%;
+}
+
+    .ClsContItemPic a {
+        position: relative;
+        margin: auto;
+    }
+
+.ClsContItemPicItem {
+    height: 110px;
+    width: 210px;
+    display: block;
+}
+
+.ClsContItemPic > div {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 4px;
+    width: 12%;
+}
+
+.ClsContItemPic span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: aliceblue;
+    background-color: #474747;
+    opacity: 0.7;
+}
+.clscont>div[class="ClsContItemCurrent"] {
+    display: block;
+}
+.clscont > div {
+    display: none;
+}
+
+.search {
+    height: 50px;
+    width: 90%;
+    background-color: #E0FFFF;
+    font-size: 25px;
+    position: relative;
+    margin: auto;
+}
+
+    .search div {
+        display: inline-block;
+    }
+
+.radio {
+    width: 250px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Cont > div {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ContL {
+    position: relative;
+    height: 1000px;
+    width: 31%;
+    margin: 20px;
+}
+
+.ContM {
+    position: relative;
+    height: 1000px;
+    width: 31%;
+    margin: 20px;
+}
+
+.ContR {
+    position: relative;
+    height: 1000px;
+    width: 31%;
+    margin: 20px;
+}
+
+.MidNewNavItem {
+    background-color: #474747;
+    float: left;
+    width: 33%;
+    height: 35px;
+    text-align: center;
+    margin: 2px;
+    color: aliceblue;
+    margin: auto;
+}
+
+    .MidNewNavItem:hover {
+        background-color: #A1A1A1;
+        cursor: pointer;
+    }
+
+.MidNewNone {
+    display: none;
+}
+
+.MidNewCurrent {
+    display: block;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.ContRCls {
+    text-align: left;
+}
+
+.ContRCls1 {
+    width: 240px;
+    text-align: left;
+    color: aqua;
+    float: left;
+}
+
+.ContRCls2 {
+    color: aqua;
+    text-align: left;
+    width:100px;
+}
+
+.LoginBox {
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+    z-index: 999999;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 1100px; /*500px;*/
+    height: 640px; /*320px*/
+    margin: auto;
+    position: fixed;
+    Top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 3px 3px 50px 50px #696969;
+    background: url('../Resources/Image/太空登录.png') no-repeat;
+    background-size: 820px;
+    background-position-x: right;
+    background-color: white;
+}
+
+    .LoginBox > div {
+        text-align: left;
+        margin: 30px;
+    }
+
+    .LoginBox :nth-child(7) {
+        position: relative;
+        top: -430px;
+        left: 450px;
+        background-color: transparent;
+        font-weight: 700;
+        font-size:42px;
+        color: wheat;
+        border: none;
+    }
+
+        .LoginBox :nth-child(7):hover {
+            cursor: pointer;
+        }
+
+.TbLoginBox {
+    width: 400px;
+    height: 70px;
+}
+.ManagerLogin {
+    display: block;
+    z-index: 999999;
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 320px;
+    margin: auto;
+    position: fixed;
+    Top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.BtnMLogin{
+    border:dotted;
+    border-color:blue;
+    font-size:26px;
+    font-weight:700;
+    background-color:transparent;
+    margin:auto;
+}
